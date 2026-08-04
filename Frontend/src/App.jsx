@@ -1,10 +1,16 @@
 import React from 'react';
+import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'; 
+import CreatePost from './pages/CreatePost.jsx'
+import Feed from "./pages/Feed.jsx"
 
 const App = () =>{
   return(
-    <div>
-      <h1>Welcome to the App</h1>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/create-post" element={<CreatePost />}/>
+        <Route path="/feed" element={<Feed />}/>
+      </Routes>
+    </Router>
   )
 }
 

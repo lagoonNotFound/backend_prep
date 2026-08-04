@@ -1,0 +1,5 @@
+# Dono folders ke node_modules ke liye:
+**/node_modules/
+
+# Backend ke .env ke liye:
+**/.env
