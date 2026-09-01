@@ -10,5 +10,3 @@ async function connectDB() {
 
 module.exports = connectDB;
 
-
-export = connecteDB;
